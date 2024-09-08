@@ -13,7 +13,7 @@ QUERY_INTERVAL = 5
 # Number of publications to get from each query
 NUM_RESULTS = 15
 
-PATH_TO_OUTPUT = "output/output.json"
+PATH_TO_OUTPUT = "output/studies.json"
 
 
 with open("config.json") as f:
