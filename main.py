@@ -49,8 +49,11 @@ for domain in activeDomains:
             try:
                 study = Study(next(search_results), combo)
                 print(f"Retrieved study {study.title}")
+            except StopIteration:
+                print(f"Exausted studies with query {query}, skipping")
+                continue
             except Exception:
-                print(str(Exception))
+                print("Error with paring study, skipping")
                 continue
 
             for keyword in combo:
@@ -71,7 +74,7 @@ for keyword in activeKeywords:
     output_json["Keywords"][keyword.keyword] = [study.toJson() for study in keyword.getStudies()]
 
 
-with open(PATH_TO_OUTPUT) as f:
+with open(PATH_TO_OUTPUT, "w") as f:
     json.dump(output_json)
     
     
