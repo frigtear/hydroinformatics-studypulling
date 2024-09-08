@@ -1,0 +1,18 @@
+{
+    "Keywords": {
+        "Large Language Model":"LLM, Vector Embeddings, Dense Representations, Semantic Search, Open Source, Prompt Engineering, Retrieval Augmented Generation (RAG), Neural Search, Tokenization, Vector Store, Vector Database, Grounding",
+        "GPT":"ChatGPT, GPT-3, GPT-4, Transformer Neural Network, Language Model, Pre-training, Application Programming Interface, API, Text Generation, Sentiment Analysis, Text Classification, LSTM, RNN, Backpropagation, Meta-learning, Seq2se",
+        "Natural Language Processing":"NLP, Natural Language Processing, Sentiment Analysis, Text Mining, Chatbots, Language Understanding, Text Classification, Named Entity Recognition, Part-of-Speech Tagging, Text Summarization, Topic Modeling",
+        "Fine-tuning":"Parameter-Efficient Fine-Tuning, PEFT, Low-Rank Adaption, LoRA, Prefix Tuning, Prompt Tuning, RLHF, Alignment Tuning, AdaLoRA",
+        "Machine Learning and AI":"Artificial Intelligence, Machine Learning, Supervised Learning, Classification, Unsupervised Learning, Reinforcement Learning, Decision Tree, Random Forest, Support Vector Machine, Nearest Neighbor, Naive Bayes",
+        "Conversational Agents":"Chatbot, Voice Assistant, Intent Recognition, Dialogue Management, Entity Extraction, Natural Language Understanding, Response Generation, Sentiment Analysis, Context Awareness, Conversational Interface, Multimodal Interaction, Personalization, Conversational AI, Knowledge Base, Conversational Context, Bot Framework",
+        "Real-Time Contextual Information":"Real-Time Data, Dynamic Contextualization, Contextual Intelligence, Location-Based Services, Live Data Streams, Real-Time Monitoring, Adaptive Systems, Sensor Data Integration, Contextual Data Fusion, Context-Sensitive Computing, Event-Driven Architecture, Real-Time Feedback, Contextual Insights",
+        "Vision-based AI":"Computer Vision, Image Processing, Object Detection, Image Segmentation, Deep Learning, Convolutional Neural Networks, Optical Character Recognition, Pose Estimation, Semantic Segmentation, 3D Reconstruction, Visual SLAM, Gesture Recognition, Anomaly Detection, Super-Resolution Imaging"
+    },
+    "Domains": {
+        "Ontology":"Knowledge Representation",
+        "Hydrology":"Hydrology, Hydrogeology, Hydrometeorology, Hydro informatics, Ecohydrology, Water Quality, Flood Hydrology, Hydraulic Engineering, Water Resources Management, Watershed Management, Hydrological Modeling, Hydro climatology, Hydrograph",
+        "Civil Engineering":"Structural Engineering, Geotechnical Engineering, Transportation Engineering, Construction Engineering, Urban Planning, Coastal Engineering, Surveying, Materials Engineering, Earthquake Engineering, Highway Engineering, Bridge Engineering, Tunnel Engineering, Railway Engineering, Hydraulic Engineering, Municipal Engineering, Forensic Engineering, Fire Protection Engineering, Sustainable Engineering",
+        "Environmental Engineering":"Water Quality Engineering, Air Quality Engineering, Waste Management, Environmental Impact Assessment, Sustainable Engineering, Renewable Energy, Soil and Groundwater Remediation, Ecological Engineering, Climate Change, Mitigation and Adaptation, Environmental Health and Safety"
+    }
+}
