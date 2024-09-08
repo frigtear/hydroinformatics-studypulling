@@ -18,8 +18,7 @@ class Study:
         self.keywords = keywords
         
 
-
-
+    # Hash each study for use in sets based on its title
     def __hash__(self):
         return hash(self.title)
     
@@ -27,7 +26,7 @@ class Study:
     def __str__(self):
         return f"{self.title} by {self.authors}"
     
-
+# Formats the study to be output into a json file 
     def toJson(self):
         json = dict()
         json["title"] = self.title

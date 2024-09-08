@@ -25,7 +25,7 @@ with open("config.json") as f:
 activeKeywords = list()
 activeDomains = list()
 
-
+''' builds keyword objects out of the keywords in the config'''
 for word in keywords:
     keyword = Keyword(word, keywords[word])
     activeKeywords.append(keyword)
@@ -35,10 +35,12 @@ for domain in domains:
     domain = Keyword(domain, domains[domain])
     activeDomains.append(domain)
 
-
+''' Gets every combination of keywords, builds a query out of the first MAX_COMBINATIONS of them, and builds a study object out of each result. Stores the found studies in each keyword object'''
 for domain in activeDomains:
+    # Get a NUM_KEYWORDS sized list of every possible combinations of keywords
     combos = combinations(activeKeywords, NUM_KEYWORDS)
     for combo in list(combos)[:MAX_COMBINATIONS]:
+
         chosen_keywords = [word.getKeyword() for word in combo] + [domain.getKeyword(),]
         query = " ".join(chosen_keywords)
         search_results = scholarly.search_pubs(query)
@@ -59,7 +61,7 @@ for domain in activeDomains:
 
 output_json = dict()
 
-
+''' Outputs each keyword and its studies into a json file'''
 for domain in activeDomains:
     output_json["Domains"] = dict()
     output_json["Domains"][domain.keyword] = [study.toJson() for study in domain.getStudies()]
