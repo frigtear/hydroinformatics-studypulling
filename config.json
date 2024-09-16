@@ -14,5 +14,6 @@
         "Hydrology":"Hydrology, Hydrogeology, Hydrometeorology, Hydro informatics, Ecohydrology, Water Quality, Flood Hydrology, Hydraulic Engineering, Water Resources Management, Watershed Management, Hydrological Modeling, Hydro climatology, Hydrograph",
         "Civil Engineering":"Structural Engineering, Geotechnical Engineering, Transportation Engineering, Construction Engineering, Urban Planning, Coastal Engineering, Surveying, Materials Engineering, Earthquake Engineering, Highway Engineering, Bridge Engineering, Tunnel Engineering, Railway Engineering, Hydraulic Engineering, Municipal Engineering, Forensic Engineering, Fire Protection Engineering, Sustainable Engineering",
         "Environmental Engineering":"Water Quality Engineering, Air Quality Engineering, Waste Management, Environmental Impact Assessment, Sustainable Engineering, Renewable Energy, Soil and Groundwater Remediation, Ecological Engineering, Climate Change, Mitigation and Adaptation, Environmental Health and Safety"
+    },
+    "ProxyUrl":"https://hydroinformatics.uiowa.edu/lab/cors"
     }
-}

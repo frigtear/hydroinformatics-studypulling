@@ -5,7 +5,6 @@ import itertools
 
 class Study:
     def __init__(self, json, keywords):
-        print(json)
         self.bib = json["bib"]
         self.summary = self.bib["abstract"]
         self.title = self.bib["title"]
