@@ -84,18 +84,22 @@ for domain in activeDomains:
 
 output_json = dict()
 
+output_json = {
+    "Domains": {},  # Initialize once
+    "Keywords": {}  # Initialize once
+}
+
 ''' Outputs each keyword and its studies into a json file'''
-output_json["Domains"] = dict()
 for domain in activeDomains:
-    output_json["Domains"][domain.keyword] = [study.toJson() for study in domain.getStudies()]
-    
-output_json["Keywords"] = dict()
+    output_json["Domains"][domain.getKeyword()] = [study.toJson() for study in domain.getStudies()]
+
+
 for keyword in activeKeywords:
-    output_json["Keywords"][keyword.keyword] = [study.toJson() for study in keyword.getStudies()]
+    output_json["Keywords"][keyword.getKeyword()] = [study.toJson() for study in keyword.getStudies()]
 
 
 with open(PATH_TO_OUTPUT, "w") as f:
-    json.dump(output_json, f)
+    json.dump(output_json, f, indent=4)
     
     
 
